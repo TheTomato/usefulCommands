@@ -30,6 +30,12 @@ Managing Webserver
 grep -Hrv ";" /etc/php5 | grep -i "extension="
 ```
 
+- Enable or Disable Php extensions
+``` shell
+sudo php5enmod ext_name
+sudo php5dismod ext_name
+```
+
 - Enable or Disable Apache Mods
 ``` shell
 sudo a2enmod module_name
