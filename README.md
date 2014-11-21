@@ -22,3 +22,16 @@ Useful Packages
 ``` shell
 sudo apt-get install nautilus-open-terminal 
 ```
+
+Managing Webserver
+--------------
+- Search included php extensions
+``` shell
+grep -Hrv ";" /etc/php5 | grep -i "extension="
+```
+
+- Enable or Disable Apache Mods
+``` shell
+sudo a2enmod module_name
+sudo a2dismod module_name
+```
