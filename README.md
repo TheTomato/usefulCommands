@@ -36,6 +36,11 @@ sudo php5enmod ext_name
 sudo php5dismod ext_name
 ```
 
+- Search included Apache2 modules
+``` shell
+apache2ctl -M
+```
+
 - Enable or Disable Apache Mods
 ``` shell
 sudo a2enmod module_name
