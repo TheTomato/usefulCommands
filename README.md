@@ -1,7 +1,6 @@
 Useful Commands for Ubuntu
 ==============
-
-I will list some commands i want to remember here.
+I will list some commands i want to remember here. Please contribute related commands, if you like.
 
 Managing Packages
 --------------
