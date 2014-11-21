@@ -1,12 +1,12 @@
 Useful Commands for Ubuntu
 ==============
 
-I will list some Commands i want to remember here.
+I will list some commands i want to remember here.
 
 Managing Packages
 --------------
 
-- Search the installed Packages
+- Search the installed packages
 ``` shell
 dpkg-query -l *searchstring*
 ```
@@ -18,14 +18,14 @@ apt-cache search searchstring
 
 Useful Packages
 -------------
-- Install to open terminal from file manager in Right-Click context menu.
+- Install to open terminal from file manager in right-Click context menu.
 ``` shell
 sudo apt-get install nautilus-open-terminal 
 ```
 
 Managing Webserver
 --------------
-- Search included php extensions
+- Search included Php extensions
 ``` shell
 grep -Hrv ";" /etc/php5 | grep -i "extension="
 ```
