@@ -45,3 +45,10 @@ apache2ctl -M
 sudo a2enmod module_name
 sudo a2dismod module_name
 ```
+Finding Hardware
+----------------
+
+- Motherboard
+``` shell
+sudo dmidecode -t 2
+```
