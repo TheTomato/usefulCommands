@@ -52,3 +52,11 @@ Finding Hardware
 ``` shell
 sudo dmidecode -t 2
 ```
+
+Notes
+---------
+Restart Pulseaudio
+``` shell
+pulseaudio -k
+pulseaudio --start
+```
