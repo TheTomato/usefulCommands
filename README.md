@@ -4,9 +4,14 @@ I will list some commands i want to remember here. Please contribute related com
 
 Media Functions
 --------------
-- Install ubuntu-restricted-extras
+- Install ubuntu-restricted-extras (for mp3, unrar, flash etc together)
 ``` shell
 sudo apt-get install ubuntu-restricted-extras
+```
+
+- Install mp3 support
+``` shell
+sudo apt-get install libmp3lame0
 ```
 
 - Install Flashplugin
