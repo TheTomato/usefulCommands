@@ -72,7 +72,7 @@ Finding Hardware
 sudo dmidecode -t 2
 ```
 
-Notes
+Error handling
 ---------
 Restart Pulseaudio
 ``` shell
