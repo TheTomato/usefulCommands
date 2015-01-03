@@ -2,6 +2,25 @@ Useful Commands for Ubuntu
 ==============
 I will list some commands i want to remember here. Please contribute related commands, if you like.
 
+Media Functions
+--------------
+- Install ubuntu-restricted-extras
+``` shell
+sudo apt-get install ubuntu-restricted-extras
+```
+
+- Install Flashplugin
+``` shell
+sudo apt-get install flashplugin-installer
+```
+
+- Install DVD Codecs (Note: libdvdread4 may be installed with ubuntu-restricted-extras already)
+``` shell
+sudo apt-get install libdvdread4
+sudo /usr/share/doc/libdvdread4/install-css.sh
+```
+reboot then
+
 Managing Packages
 --------------
 
